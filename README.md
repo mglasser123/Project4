@@ -14,6 +14,7 @@ Key Data Points
 •	Onboard Date: The date that the name of the latest contact was onboarded
 •	Location: Client HQ Address
 •	Company: Name of Client Company
+•	Churn: Yes (1) or No (0)
 
 For data exploration we employed multiple confusion matrix to determine which will produce the best outcome.  These included Logistic Regression, Decision Tree, K-Nearest Neighbors Classifier, Random Forest, Gradient Boosting Classifier, Ada Boost Classifier and Extra Tree Classifier.  Ultimately it appears that that Random Forest provided the best overall performance, while Ada Boost Classifier proved to be the best option for mean and standard deviation of the accuracy scores.
 
