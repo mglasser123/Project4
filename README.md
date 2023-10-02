@@ -14,3 +14,7 @@ Key Data Points
 •	Onboard Date: The date that the name of the latest contact was onboarded
 •	Location: Client HQ Address
 •	Company: Name of Client Company
+
+For data exploration we employed multiple confusion matrix to determine which will produce the best outcome.  These included Logistic Regression, Decision Tree, K-Nearest Neighbors Classifier, Random Forest, Gradient Boosting Classifier, Ada Boost Classifier and Extra Tree Classifier.  Ultimately it appears that that Random Forest provided the best overall performance, while Ada Boost Classifier proved to be the best option for mean and standard deviation of the accuracy scores.
+
+Additionally, we used multiple set up for Neural Networks in order to attempt to build predictions based on Machine Learning.  Each model produced different outcomes or course based on the number of Neurons and Layers employed.  Ultimately we were able to achieve a predictive accuracy score of 87% within our designated 100 Epochs by utilizing a setup consisting of the initial two layers, the sigmoid activation function for each layer, and 500 & 300 neurons respectively
